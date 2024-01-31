@@ -7,3 +7,4 @@ langchain
 pypdf 
 PyPDF2
 request
+fastapi
