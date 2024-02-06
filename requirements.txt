@@ -8,3 +8,4 @@ pypdf
 PyPDF2
 request
 fastapi
+uvicorn
