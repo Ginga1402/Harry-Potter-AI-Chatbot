@@ -1,2 +1,4 @@
-# harry potter chatbot to be made
+#### Harry Potter AI chatbot
+
+# Wizard Whispers Chatting in the Potterverse
 
