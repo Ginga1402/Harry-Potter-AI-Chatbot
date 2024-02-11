@@ -15,7 +15,7 @@ embeddings = HuggingFaceBgeEmbeddings(
     encode_kwargs=encode_kwargs
 )
 
-loader = DirectoryLoader('D:\Personal\Portfolio\Harry potter Novels/', glob="**/*.pdf", show_progress=True, loader_cls=PyPDFLoader)
+loader = DirectoryLoader('PROVIDE_PATH_TO_YOUR_DOC', glob="**/*.pdf", show_progress=True, loader_cls=PyPDFLoader)
 documents = loader.load()
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
 texts = text_splitter.split_documents(documents)
