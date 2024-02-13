@@ -41,7 +41,7 @@ To get started with the Harry Potter AI-Based Chatbot, follow these steps:
 
 #### Clone the repository to your local machine:
 
-git clone https://github.com/your-username/harry-potter-chatbot.git
+git clone https://github.com/Ginga1402/harry-potter-chatbot.git
 
 #### Install the required dependencies:
 
