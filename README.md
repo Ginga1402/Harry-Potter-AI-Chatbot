@@ -71,6 +71,8 @@ The chatbot uses a simple command-line interface. Enter your questions, and the 
 ## Example
 Here's an example interaction with the Harry Potter AI-Based Chatbot:
 
+![image](https://github.com/Ginga1402/Harry-Potter-AI-Chatbot/assets/130181481/79d708a7-e1bc-4968-80b5-947124d5edb5)
+
 
 ## Contributing
 Contributions to this project are welcome! If you have ideas for improvements, bug fixes, or new features, feel free to open an issue or submit a pull request.
