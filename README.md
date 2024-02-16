@@ -34,7 +34,7 @@ This repository contains the code for a customizable QA chatbot that has been tr
 The following technologies and libraries were used in the development of this chatbot:
 
 Python: Programming language used for the implementation.
-
+Langchain
 
 
 ## Getting Started
