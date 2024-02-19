@@ -1,6 +1,5 @@
 ### Create a custom Question-Answer (QA) chatbot using your own input data.
 
-WIP
 
 # Harry Potter AI-Based Chatbot
 
@@ -34,21 +33,27 @@ This repository contains the code for a customizable QA chatbot that has been tr
 The following technologies and libraries were used in the development of this chatbot:
 
 Python: Programming language used for the implementation.
-Langchain
 
+Langchain: LangChain is a framework designed to simplify the creation of applications using large language models.
+
+Chroma DB: Chroma DB is an open-source vector store used for storing and retrieving vector embeddings.
+
+Ctransformers: The C Transformers library provides Python bindings for GGML models.
+
+Model Used: Llama 2 is a family of pre-trained and fine-tuned large language models (LLMs) released by Meta AI in 2023. Released free of charge for research and commercial use, Llama 2 AI models are capable of a variety of natural language processing (NLP) tasks, from text generation to programming code. 
 
 ## Getting Started
 To get started with the Harry Potter AI-Based Chatbot, follow these steps:
 
-#### Clone the repository to your local machine:
+#### 1. Clone the repository to your local machine:
 
 git clone https://github.com/Ginga1402/harry-potter-chatbot.git
 
-#### Install the required dependencies:
+#### 2. Install the required dependencies:
 
 pip install -r requirements.txt
 
-#### Run the chatbot application:
+#### 3. Run the chatbot application:
 python chatbot.py
 
 Interact with the chatbot by entering your Harry Potter-related questions.
