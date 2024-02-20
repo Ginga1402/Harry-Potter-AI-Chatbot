@@ -10,8 +10,7 @@ from langchain.document_loaders import PyPDFLoader
 from langchain.chains import RetrievalQA
 
 
-local_llm = "zephyr-7b-beta.Q5_K_S.gguf"
-# local_llm = "llama-2-13b-chat.Q4_K_M.gguf"
+local_llm = "llama-2-13b-chat.Q4_K_M.gguf"
 
 model_name = "BAAI/bge-large-en"
 model_kwargs = {'device': 'cuda'}
