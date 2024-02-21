@@ -56,15 +56,16 @@ load_vector_store = Chroma(persist_directory="stores/pet_cosine", embedding_func
 retriever = load_vector_store.as_retriever(search_kwargs={"k":1})
 
 
-print("######################################################################")
-print("Phase I completed")
-print("######################################################################")
+# print("######################################################################")
+# print("Phase I completed")
+# print("######################################################################")
 
 
 chain_type_kwargs = {"prompt": prompt}
 
 def get_response(input):
   query = input
+  
   chain_type_kwargs = {"prompt": prompt}
   qa = RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=retriever, return_source_documents=True, chain_type_kwargs=chain_type_kwargs, verbose=True)
   response = qa(query)
