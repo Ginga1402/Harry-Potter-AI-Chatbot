@@ -65,10 +65,11 @@ chain_type_kwargs = {"prompt": prompt}
 
 def get_response(input):
   query = input
-  
+  print("The query asked is: ",query)
   chain_type_kwargs = {"prompt": prompt}
   qa = RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=retriever, return_source_documents=True, chain_type_kwargs=chain_type_kwargs, verbose=True)
   response = qa(query)
+  #print("response is :",response)
   return response
 
 
